@@ -1,0 +1,53 @@
+/*Señector universal*/
+*{
+    font-family: sans-serif;
+}
+
+/*selector de etiqueta:
+Ocupa el nombre de la etiqueta y modifica todas las ocurrencias(todos los nombres iguales)*/
+body{
+    background-color: rgba(224, 220, 218, 0.932);
+   padding: 0.5em 2em 0.8em 2em;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+footer{
+    text-align: end;
+}
+
+/*Selector de clase:*/
+
+.mascota{
+    margin: 10px;
+    padding: 20px;
+    border: 25px solid #000;
+    width: 90px;
+    height: 90px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+/*Es una id unico en el sitio */
+#logo{
+    width: 200px;
+}
+
+#navegacion{
+     display: inline;
+}
+#navegacion li{
+    display: inline;
+}
+#contacto{
+    background-image: url("/images/gif.gif");
+    background-repeat: no-repeat;
+}
+
+.inline{
+    display: inline-block;
+}
+
